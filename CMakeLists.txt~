@@ -1,0 +1,6 @@
+project(leetcode1)
+
+add_executable(leetcode1  main.cpp)
+add_executable(demo demo.cpp)
+
+install(TARGETS leetcode1 RUNTIME DESTINATION bin)
